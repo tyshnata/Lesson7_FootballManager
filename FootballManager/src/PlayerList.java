@@ -48,7 +48,7 @@ public class PlayerList extends ArrayList<Player>{
         ScannerControl scanner=new ScannerControl();
         while (iterator.hasNext()){
             Player player=iterator.next();
-            System.out.println(arrayPlayerList.indexOf(player)+" "+ player.getName()+player.getAge()+player.getRating()+player.getCommand());
+            System.out.println(arrayPlayerList.indexOf(player)+" "+ player.getName()+" "+player.getAge()+" "+player.getRating()+" "+player.getCommand());
         }
         System.out.println("Введите номер игрока, которого нужно удалить");
         index=scanner.enterInteger();
